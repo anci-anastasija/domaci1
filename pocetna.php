@@ -7,13 +7,13 @@
     <title>Moja biblioteka</title>
 </head>
 <body>
-
+    <a href="knjiga.php">Dodaj novu knjigu</a>
     <p>Dodaj učenika:</p>
     
     <?php
     include 'oopfunction.php';
-    $insert = new Connection();
-    $result = $insert->insert();
+    $ucenik = new Connection();
+    $result = $ucenik->insert();
     ?>
 
     <form action="" method="post" autocomlete = "off">
@@ -38,8 +38,8 @@
         </thead>
         <tbody>
             <?php
-            $select = new Connection();
-            $result = $select->select();
+            $record = new Connection();
+            $result = $record->select();
             if($result){
                 foreach($result as $row){
             ?>
