@@ -14,8 +14,9 @@
   $id = $_REQUEST['id'];
   $row = $azuriraj->edit($id);
   if(isset($_POST['update'])) {
-    if(isset($_POST['id_knjiga']) && isset($_POST['email']) && isset($_POST['telefon'])) {
+    if(isset($_POST['id_knjiga']) && isset($_POST['ime']) && isset($_POST['email']) && isset($_POST['telefon'])) {
       $data['id'] = $id;
+      $data['ime'] = $_POST['ime'];
       $data['id_knjiga'] = $_POST['id_knjiga'];
       $data['email'] = $_POST['email'];
       $data['telefon'] = $_POST['telefon'];
