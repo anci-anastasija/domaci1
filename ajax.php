@@ -30,17 +30,17 @@ if(isset($_POST["display"])){
 
 <div id = "prikaz">
   
-  <table cellpadding="10" border="1">
+  <table cellpadding="10">
     <tr id="<?php echo $row["idknjiga"]; ?>">
-    <th>Id</th>
-    <th>Name</th>
+    <th>ID</th>
+    <th>Ime knjige</th>
     <th>Brisanje</th>
     </tr>
     <?php while ($row = mysqli_fetch_array($result,MYSQLI_ASSOC )) { ?>
     <tr>
       <td><?php echo $row["idknjiga"]; ?></td>
       <td><?php echo $row["nazivknjiga"]; ?></td>
-      <td> <button type="button" name="button" onclick = "obrisiRecord(<?php echo $row['idknjiga']; ?>)">Delete</button> </td>
+      <td> <button class="dugme"type="button" name="button" onclick = "obrisiRecord(<?php echo $row['idknjiga']; ?>)">Obrisi</button> </td>
     </tr>
     <?php } ?>
   </table>  

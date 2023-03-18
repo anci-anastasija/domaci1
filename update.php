@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="styleKnjiga.css">
 </head>
 <body>
    
@@ -33,7 +34,7 @@
   }
 
 ?>
-<form action="" method="post" autocomlete = "off">
+<form action="" method="post" autocomlete = "off" class="forma">
   <label>Ime</label> 
   <input type="text" name="ime" value="<?=$row['ime']?>"> <br>
   <label>Šifra knjige</label> 
@@ -42,7 +43,7 @@
   <input type="text" name="email" value="<?=$row['email']?>"> <br>
   <label>Telefon:</label>
   <input type="text" name="telefon" value="<?=$row['telefon']?>"> <br>
-  <button type="submit" name="update">Sačuvaj</button>
+  <button type="submit" name="update" class="dugme">Sačuvaj</button>
 </form>
      
 </body>

@@ -1,0 +1,93 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+
+}
+th {
+    background-color: sandybrown;
+    border: solid 1px #DDEEEE;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    
+}
+tbody td {
+    border: solid 1px #DDEEEE;
+   
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    background-color: white;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url(pocetna.jpg);
+}
+.link{
+    position:relative;
+    padding: 10px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.slova{
+    color: azure;
+    font-size: 20pt;
+}
+.forma{
+    margin: auto ;
+    position: relative;
+    display: grid;
+    width: 50%;
+	vertical-align: middle;
+    margin: 2%auto;
+}
+.forma label{
+    color: white;
+}
+.forma input{
+    padding: 1%;
+}
+#prikaz{
+    margin: auto;
+    position: relative;
+    display: grid;
+    width: 80%;
+    padding-bottom: 45px;
+	vertical-align: middle;
+    margin: 2%auto;
+}
+#dodaj{
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 280px;
+    background-color: sandybrown;
+    border: 0;
+    color: white;
+    font-size: 12pt;
+    
+}
+.dugme{
+    background-color: sandybrown;
+    color: white;
+    border-color: sandybrown;
+    margin-left: 10px;
+    width: 90%;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}

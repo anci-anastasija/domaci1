@@ -30,17 +30,24 @@ if(isset($_POST["dugme"])){
   <head>
     <meta charset="utf-8">
     <title>Login</title>
+    <link rel="stylesheet" href="styleLogin.css">
   </head>
   <body>
-    <h2>Uloguj se</h2>
-    <form class="" action="" method="post" autocomplete="off">
-      <label for="">Korisničko ime : </label>
-      <input type="text" name="username" required value=""> <br>
-      <label for="">Šifra</label>
-      <input type="password" name="password" required value=""> <br>
-      <button type="submit" name="dugme">Login</button>
-    </form>
-    <br>
-
+  <div class="okvir-prijava">
+  <h2>Moja Biblioteka</h2>
+    <div class="forma-prijava">
+   
+    <h1>Uloguj se</h1>
+      
+        <form class="input-form" action="" method="post" autocomplete="off">
+          
+          <input class="input-field" type="text" name="username" required value="" placeholder="Korisnicko ime. . . "> <br>
+          
+          <input class="input-field" type="password" name="password" required value=""  placeholder="Sifra. . . " > <br>
+          <button type="submit" name="dugme" class="dugme">Login</button>
+        </form>
+      
+    </div>
+  </div>
   </body>
 </html>

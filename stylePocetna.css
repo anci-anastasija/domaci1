@@ -1,0 +1,158 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+
+}
+#grid {
+   
+    text-align: center;
+	vertical-align: middle;
+   
+ border-color: transparent;
+   
+    position: relative;
+   
+    
+    margin: 1px auto;
+    padding: 5px;
+    
+  }
+  
+   
+ .forma-ucenik td {
+    border: none;
+  background-color: white;
+ 
+  }
+
+  .divdiv{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url(pocetna.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.table-ucenik {
+    width: 100%;
+   margin-bottom: 25px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px ;
+    background-color: white;
+}
+.forma-ucenik{
+    margin: auto;
+    position: relative;
+    display: grid;
+    width: 50%;
+    padding-bottom: 45px;
+	vertical-align: middle;
+   margin: 2%auto;
+}
+
+th {
+    background-color: sandybrown;
+    border: solid 1px #DDEEEE;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    
+}
+tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.link{
+    position:relative;
+       
+       font-size: 15pt;
+       padding: 10px;
+       position: absolute;
+       top: 8px;
+       right: 16px;
+       font-size: 18px;
+       }
+.link-slova{
+    color: azure;
+}
+.table-insert{
+    width: 100%;
+    position: relative;
+    border: 5px solid white;
+}
+.search-box{
+    background-image: url('ikonica.png');
+    background-position: absolute;
+    background-repeat: no-repeat; 
+    background-size: 40px;
+    width: 60%; 
+    font-size: 16px; 
+    padding: 8px;
+    border: 2px solid #ddd;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+   
+}
+.search-box input{
+    width: 100%;
+    position: relative;
+    margin-left: 45px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+   
+}
+.search-box ::placeholder{
+    color: white;
+}
+input{
+    color: #333b ;
+}
+.forma-ucenik input{
+    width: 100%;
+    color: black;
+    height: 20%;
+    box-sizing: border-box;
+}
+.forma-ucenik h2{
+    color: white;
+    text-align: left;
+}
+
+.dugme{
+    margin-top: 15px;
+    margin-left: 255px;
+    width: 25%;
+    position: relative;
+    background: sandybrown;
+    border: 0;
+    color: white;
+    font-size: 12pt;
+    
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+.a1{
+    color: sandybrown;
+}

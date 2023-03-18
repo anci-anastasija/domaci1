@@ -1,0 +1,86 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+
+
+}
+#myInput {
+    background-image: url('ikonica.png'); /* Add a search icon to input */
+    background-size: 35px;
+    background-position: 2px 2px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 20%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+
+  .okvir-prijava{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4) ),url(knjiga.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+     
+ }
+ .forma-prijava{
+     
+     width: 380px;
+     height: 520px;
+     position: relative;
+     margin: 6% auto;
+     background: transparent;
+     
+ }
+ .input-form{
+    top:180px;
+    position: absolute;
+    width: 280px;
+   
+}
+.input-field{
+   
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 12pt;
+    
+}
+
+h1{
+    color: white;
+    padding: 5px 25px ;
+}
+h2{
+    color: white;
+    padding: 5px 25px ;
+    
+}
+.dugme{
+    width: 85%;
+    margin-top: 35px;
+    margin-left:15px;
+    margin-bottom: 25px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background: sandybrown;
+    border: 0;
+    color: white;
+    font-size: 12pt;
+    
+}
+::placeholder {
+  color: white;
+}
